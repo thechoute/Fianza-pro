@@ -1,0 +1,34 @@
+
+{
+  "short_name": "FinanzaPro",
+  "name": "Finanza Pro: Ahorro Inteligente",
+  "description": "Calcula cuánto ahorrar cada día para alcanzar tus metas y gestiona tus gastos fijos con inteligencia artificial.",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2489/2489756.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2489/2489756.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#4f46e5",
+  "background_color": "#ffffff",
+  "categories": ["finance", "productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Nueva Meta",
+      "short_name": "Meta",
+      "url": "/?tab=savings",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/2489/2489756.png", "sizes": "192x192" }]
+    }
+  ]
+}
